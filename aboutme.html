@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>JiayiK152Cai</title>
+ 
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+ 
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img" alt="logo image"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Welcome to my little world.</h1></a>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                     <li>
+                       <a href="aboutme.html">
+                         <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> About Me</a>
+                     </li>
+                     <li>
+                       <a href="gallery.html">
+                         <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs"> Gallery</a>
+                     </li>
+                     <li>
+                       <a href="blog.html">
+                         <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Blog</a>
+                     </li>
+                     <li id="email" class="hidden-xs">
+                       <a href="mailto:jiayicai152@gmail.com">
+                         <div class="glyphicon glyphicon-envelope"></div>
+                         <span>jiayicai152@gmail.com</span></a>
+                     </li>
+                   </ul><!-- #nav-list -->
+                 </div><!-- .collapse .navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+
+    <div id="main-content" class="container">
+      <h2 id="aboutme-categories-title" class="text-center" style="font-family:fantasy">About Me</h2>
+
+      <section class="about">
+        <div>
+        <div class="col-md-6">
+          <p>I am now a second-year computer science student studying in Canada.</p>
+          <p>My dream is to become a full-stack developer in the future, 
+          right now I am working hard to learn both front-end and back-end 
+          technologies both in-school and outside of school. </p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/abou1.jpeg">
+        </div>
+      </div>
+      <div style="margin-top:20px">
+        <div class="col-md-6">
+          <img id="about2" src="images/about2.jpeg">
+        </div>
+        <div class="col-md-6" style="margin-top:40px">
+          <p>Aside from programming, I am also interested in drawing, playing guitar and piano.</p>
+          <p>You can view my artworks under the "Gallery" Section!</p>
+          <p style="font-size:16px; margin-top: 50px">
+          Photo by Michael Dziedzic and Steve Johnson from Unsplash respectively.</p>
+        </div>
+      </div>
+  
+      </section>
+    </div>
+
+
+    <footer class="panel-footer">
+        <div class="container">
+            <section id="mails" class="col-sm-4">
+                <span>You can contact me by emailing at:</span><br>
+                jiayicai152@gmail.com<br>
+                <hr class="visible-xs">
+            </section>
+            <section id="quote" class="col-sm-4">
+                <span>"You can always edit a bad page. You can’t edit a blank page."</span><br>
+                - Jodi Picoult<br>
+                <hr class="visible-xs">
+            </section>
+            <section id="date" class="col-sm-4">
+                <span>Last updated on january 18th, 2021.</span><br>
+            </section>
+        </div>
+    </footer>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

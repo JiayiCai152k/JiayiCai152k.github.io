@@ -1,0 +1,235 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color:rgb(199, 189, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+    background-color: #fff6f6;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('images/logo1.png') no-repeat;
+    width: 250px;
+    height: 200px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1{
+    color: rgb(110, 110, 184);
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+    padding-top: 15px;
+    text-shadow: 2px 2px 2px rgb(228, 182, 216);
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+
+
+#nav-list {
+    margin-top: 150px;
+  }
+  #nav-list a {
+    color: #342d74;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #e7dcdc;
+  }
+  /*#nav-list a span {
+    font-size: 1.8em;
+  }*/
+  
+  #email {
+    margin-top: -30px;
+  }
+  #email a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #email div { /* We Deliver */
+    color: #3c0e41;
+    text-align: middle;
+    
+    /*padding-right: 100px;*/
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #2d073f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    /*margin-top: -30px;*/
+  }
+
+#self-intro {
+    color:rgb(80, 32, 124);
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#self-intro > div {
+    margin-bottom: 20px;
+}
+
+#self-intro2 {
+    color:rgb(80, 32, 124);
+    font-size: 30px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .jumbotron {
+        background: url('../personal-website/images/front.jpg') no-repeat;
+        height: 943px;
+        box-shadow: 0 0 50px rgb(145, 100, 187);
+        border: 2px solid rgb(145, 100, 187);
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo.png') no-repeat;
+    width: 100px;
+    height: 50px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  .jumbotron {
+    background: url('../personal-website/images/front-md.jpg') no-repeat;
+    height: 780px;
+    box-shadow: 0 0 50px rgb(145, 100, 187);
+    border: 2px solid rgb(145, 100, 187);
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+        background: url('../personal-website/images/front-sm.jpg') no-repeat;
+        height: 604px;
+        box-shadow: 0 0 50px rgb(145, 100, 187);
+        border: 2px solid rgb(145, 100, 187);
+    }
+}
+ #main-content{
+     margin-bottom: 50px;
+ }
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    box-shadow: 0 0 50px rgb(145, 100, 187);
+    border: 2px solid rgb(145, 100, 187);
+ /*   background: url('../personal-website/images/front-exsm.jpg') no-repeat;
+    height: 600px;
+    box-shadow: 0 0 50px rgb(145, 100, 187);
+    border: 2px solid rgb(145, 100, 187);*/
+}
+.panel_footer section{
+    margin-bottom: 30px;
+    text-align: center;
+}
+}
+
+.panel-footer {
+    color:#fff;
+    margin-top:30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(83, 53, 77);
+    border-top:0;
+}
+#mails {
+    margin-top: 30px;
+    color: #ffffff;
+    line-height:2em;
+    margin-bottom: 30px;
+}
+
+#quote {
+    line-height: 1.6em;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color: #f4ddff;
+}
+
+#date {
+    font-size: .8em;
+    margin-top: 35px;
+    float: right;
+    color: #ebbfff;
+    margin-left: 10px;
+}
+
+.about {
+    font-size: 25px;
+    
+    color:rgb(66, 24, 61);
+    line-height: 50px;
+
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#aboutme-categories-title {
+    margin-bottom: 40px;
+}
+
+#about2 {
+    height: 500px;
+    width: 500px;
+}
+
+img {
+    box-shadow: 0 0 30px rgb(145, 100, 187);
+}
